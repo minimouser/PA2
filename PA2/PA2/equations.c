@@ -3,10 +3,10 @@
 
 */
 
-#include "header.h"
+#include "equations.h"
 
 //First formula (Newton's second law)
-void newtonSecond() {
+void newtonSecond(void) {
 	float mass = 0.0, acceleration = 0.0, force = 0.0; //set variables
 
 	printf("Please enter the mass and acceleration for Newtons second law both as floating point values: ");
@@ -17,7 +17,7 @@ void newtonSecond() {
 }
 
 //second formula (Volume of a cylinder)
-void cylinderVolume(){
+void cylinderVolume(void){
 	float radius = 0.0, height = 0.0, volume_cylinder = 0.0; //set variables
 
 	printf("\n\nPlease enter the radius and height both as floating point values: ");
@@ -30,7 +30,7 @@ void cylinderVolume(){
 }
 
 //third formula (Character Encoding)
-void charEncode() {
+void charEncode(void) {
 	char plaintext = '\0', shifted;//set variables
 
 	printf("\n\nPlease enter a single character: ");
@@ -41,7 +41,7 @@ void charEncode() {
 }
 
 //fourth formula (Distance between 2 points)
-void distancePoints() {
+void distancePoints(void) {
 	int x1 = 0, y1 = 0, x2 = 0, y2 = 0;
 	float distance = 0.0; //creates variables
 
@@ -54,7 +54,7 @@ void distancePoints() {
 }
 
 //fifth formula (tangent)
-void tangent() {
+void tangent(void) {
 	float theta = 0.0, tanTheta = 0.0; //creates variables
 
 	printf("\n\n Please enter a value for Theta: ");
@@ -65,7 +65,7 @@ void tangent() {
 }
 
 //sixth formula (Total resistance of resistors in paralell)
-void resistance() {
+void resistance(void) {
 	int r1 = 0, r2 = 0, r3 = 0;
 	float total_resistance = 0.0; //initialize variables
 
@@ -77,7 +77,7 @@ void resistance() {
 }
 
 //seventh formula (y = (2 / 3) - y + z * x / (a % 2) + PI )
-void formula() {
+void formula(void) {
 	int a = 0, x = 0, z = 0;
 	float y = 0.0; //initialize variables
 

@@ -6,7 +6,7 @@
 
 */
 
-#include "header.h"
+#include "equations.h"
 int main(void) {
 
 	//calls all the formulas
@@ -17,4 +17,5 @@ int main(void) {
 	tangent();
 	resistance();
 	formula();
+	return 0; //indicates success
 }
